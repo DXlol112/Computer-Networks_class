@@ -24,7 +24,8 @@
 │           ├── ethernet-frame.png
 │           ├── forwarding-methods.png
 │           ├── frame-filtering.png
-│           └── mac-address.png
+│           ├── mac-address.png
+│           └── Wireshark.png
 ├── lesson_01/
 │   ├── class/
 │   │   └── .gitkeep
