@@ -4,14 +4,13 @@
 
 ## Оглавление
 
-| Номер |                             Очное                              |                            Д/З                             |
-| :---: | :------------------------------------------------------------: | :--------------------------------------------------------: |
-|   1   |                               -                                | [Создать сеть аудитории](<lesson_01/hw/Create_network.md>) |
-|   2   | [Коммутация Ethernet](<lesson_02/class/Ethernet_switching.md>) |          [Wireshark](<lesson_02/hw/Wireshark.md>)          |
-|   3   |                               -                                |  [Схема MAC-адреса](<lesson_03/hw/MAC_address_scheme.md>)  |
-|   4   |                               -                                |                             -                              |
-|   5   |                               -                                |                             -                              |
-|   6   |                               -                                |             [Cisco Packet Tracer в брандмауэр](<lesson_06/hw/Cisco_Packet_Tracer.md>)             |
+|                             Очное                              |                                    Д/З                                    |
+| :------------------------------------------------------------: | :-----------------------------------------------------------------------: |
+|                               -                                |        [Создать сеть аудитории](<lesson_01/hw/Create_network.md>)         |
+| [Коммутация Ethernet](<lesson_02/class/Ethernet_switching.md>) |                 [Wireshark](<lesson_02/hw/Wireshark.md>)                  |
+|                               -                                |         [Схема MAC-адреса](<lesson_03/hw/MAC_address_scheme.md>)          |
+|                               -                                | [Cisco Packet Tracer в брандмауэр](<lesson_06/hw/Cisco_Packet_Tracer.md>) |
+|        [Распределение сети](<lesson_11/class/class.md>)        |                                     -                                     |
 
 
 
