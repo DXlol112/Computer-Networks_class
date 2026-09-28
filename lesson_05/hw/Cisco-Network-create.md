@@ -8,13 +8,13 @@
 
 ## Решение
 
-1. Скриншот схемы сети
+1. Скриншот схемы сети<br>
 ![Схема сети](../../.github/assets/lesson_05/Cisco-Network-create.png)
 
-2. Скриншот консоли с результатами ping
+2. Скриншот консоли с результатами ping<br>
 ![Результаты ping](../../.github/assets/lesson_05/Cisco-Network-ping.png)
 
-3. Скриншот работы симулятора по отправки пинга
+3. Скриншот работы симулятора по отправки пинга<br>
 ![Работа симулятора](../../.github/assets/lesson_05/Cisco-Network-simulator-ping.png)
 
 Файл со схмеой сети [Cisco-Network-create.pkt](../../.github/pkt/lesson_05/Cisco-Network-1.pkt)
