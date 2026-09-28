@@ -10,8 +10,8 @@
 |   2   | [Коммутация Ethernet](<lesson_02/class/Ethernet_switching.md>) |                [Wireshark](<lesson_02/hw/Wireshark.md>)                |
 |   3   |                               -                                |        [Схема MAC-адреса](<lesson_03/hw/MAC_address_scheme.md>)        |
 |   4   |                               -                                | [Cisco Packet Tracer](<lesson_04/hw/Cisco_Packet_Tracer.md>)           |
-|   5   |     [IPv4: адресация и подсети](<lesson_05/class/ipv4.md>)     |                                   -                                   |
-|   6   |  [Расчёт IP-сетей и подсетей](<lesson_06/class/class.md>)      |                                   -                                   |
+|   5   |  [Расчёт IP-сетей и подсетей](<lesson_05/class/class.md>)      |                                   -                                   |
+|   6   |     [IPv4: адресация и подсети](<lesson_06/class/ipv4.md>)     |                                   -                                   |
 
 
 ## Структура
@@ -35,7 +35,7 @@
 │       │   └── scheme_switch.png
 │       ├── lesson_04/
 │       │   └── Cisco_Packet_Tracer_bloc.png
-│       └── lesson_05/
+│       └── lesson_06/
 │           ├── ipv4-address-and-subnet-mask.png
 │           ├── network-address-logical-and.png
 │           ├── network-subnet-segmentation.png
@@ -63,10 +63,10 @@
 │       └── Cisco_Packet_Tracer.md
 ├── lesson_05/
 │   └── class/
-│       └── ipv4.md
+│       └── class.md
 ├── lesson_06/
 │   └── class/
-│       └── class.md
+│       └── ipv4.md
 ├── .gitignore
 ├── LICENSE.md
 └── README.md
