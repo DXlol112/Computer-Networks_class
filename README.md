@@ -9,9 +9,9 @@
 |   1   |                               -                                |       [Создать сеть аудитории](<lesson_01/hw/Create_network.md>)       |
 |   2   | [Коммутация Ethernet](<lesson_02/class/Ethernet_switching.md>) |                [Wireshark](<lesson_02/hw/Wireshark.md>)                |
 |   3   |                               -                                |        [Схема MAC-адреса](<lesson_03/hw/MAC_address_scheme.md>)        |
-|   4   |     [IPv4: адресация и подсети](<lesson_04/class/ipv4.md>)     |                                   -                                   |
-|   5   |  [Расчёт IP-сетей и подсетей](<lesson_05/class/class.md>)      |                                   -                                   |
-|   6   |                               -                                | [Cisco Packet Tracer](<lesson_06/hw/Cisco_Packet_Tracer.md>)           |
+|   4   |                               -                                | [Cisco Packet Tracer](<lesson_04/hw/Cisco_Packet_Tracer.md>)           |
+|   5   |     [IPv4: адресация и подсети](<lesson_05/class/ipv4.md>)     |                                   -                                   |
+|   6   |  [Расчёт IP-сетей и подсетей](<lesson_06/class/class.md>)      |                                   -                                   |
 
 
 ## Структура
@@ -34,13 +34,13 @@
 │       │   ├── scheme_mac.png
 │       │   └── scheme_switch.png
 │       ├── lesson_04/
-│       │   ├── ipv4-address-and-subnet-mask.png
-│       │   ├── network-address-logical-and.png
-│       │   ├── network-subnet-segmentation.png
-│       │   ├── private-addresses-and-nat.png
-│       │   └── vlsm-subnets-and-wan-links.png
-│       └── lesson_06/
-│           └── Cisco_Packet_Tracer_bloc.png
+│       │   └── Cisco_Packet_Tracer_bloc.png
+│       └── lesson_05/
+│           ├── ipv4-address-and-subnet-mask.png
+│           ├── network-address-logical-and.png
+│           ├── network-subnet-segmentation.png
+│           ├── private-addresses-and-nat.png
+│           └── vlsm-subnets-and-wan-links.png
 ├── lesson_01/
 │   ├── class/
 │   │   └── .gitkeep
@@ -57,16 +57,16 @@
 │   └── hw/
 │       └── MAC_address_scheme.md
 ├── lesson_04/
-│   └── class/
-│       └── ipv4.md
-├── lesson_05/
-│   └── class/
-│       └── class.md
-├── lesson_06/
 │   ├── class/
 │   │   └── .gitkeep
 │   └── hw/
 │       └── Cisco_Packet_Tracer.md
+├── lesson_05/
+│   └── class/
+│       └── ipv4.md
+├── lesson_06/
+│   └── class/
+│       └── class.md
 ├── .gitignore
 ├── LICENSE.md
 └── README.md

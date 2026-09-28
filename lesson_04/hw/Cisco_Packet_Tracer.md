@@ -1,4 +1,4 @@
-# Домашние задание к 6 занятию
+# Домашние задание к 4 занятию
 
 ## Что надо было сделать 
 
@@ -11,6 +11,6 @@
 
 <p align="center">
 
-  <img src="../../.github/assets/lesson_06/Cisco_Packet_Tracer_bloc.png">
+  <img src="../../.github/assets/lesson_04/Cisco_Packet_Tracer_bloc.png">
   
 </p>
