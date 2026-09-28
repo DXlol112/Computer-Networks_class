@@ -10,8 +10,8 @@
 |   2   | [Коммутация Ethernet](<lesson_02/class/Ethernet_switching.md>) |                [Wireshark](<lesson_02/hw/Wireshark.md>)                |
 |   3   |                               -                                |        [Схема MAC-адреса](<lesson_03/hw/MAC_address_scheme.md>)        |
 |   4   |                               -                                | [Cisco Packet Tracer](<lesson_04/hw/Cisco_Packet_Tracer.md>)           |
-|   5   |  [Расчёт IP-сетей и подсетей](<lesson_05/class/class.md>)      | [Создание сети Cisco](<lesson_05/hw/Cisco-Network-create.md>)          |
-|   6   |     [IPv4: адресация и подсети](<lesson_06/class/ipv4.md>)     |                                   -                                   |
+|   5   |     [IPv4: адресация и подсети](<lesson_05/class/ipv4.md>)     |                                   -                                   |
+|   6   |  [Расчёт IP-сетей и подсетей](<lesson_06/class/class.md>)      | [Создание сети Cisco](<lesson_06/hw/Cisco-Network-create.md>)          |
 
 ## Структура
 
@@ -34,17 +34,17 @@
 │   │   ├── lesson_04/
 │   │   │   └── Cisco_Packet_Tracer_bloc.png
 │   │   ├── lesson_05/
-│   │   │   ├── Cisco-Network-create.png
-│   │   │   ├── Cisco-Network-ping.png
-│   │   │   └── Cisco-Network-simulator-ping.png
+│   │   │   ├── ipv4-address-and-subnet-mask.png
+│   │   │   ├── network-address-logical-and.png
+│   │   │   ├── network-subnet-segmentation.png
+│   │   │   ├── private-addresses-and-nat.png
+│   │   │   └── vlsm-subnets-and-wan-links.png
 │   │   └── lesson_06/
-│   │       ├── ipv4-address-and-subnet-mask.png
-│   │       ├── network-address-logical-and.png
-│   │       ├── network-subnet-segmentation.png
-│   │       ├── private-addresses-and-nat.png
-│   │       └── vlsm-subnets-and-wan-links.png
+│   │       ├── Cisco-Network-create.png
+│   │       ├── Cisco-Network-ping.png
+│   │       └── Cisco-Network-simulator-ping.png
 │   └── pkt/
-│       └── lesson_05/
+│       └── lesson_06/
 │           └── Cisco-Network-1.pkt
 ├── lesson_01/
 │   └── hw/
@@ -61,13 +61,13 @@
 │   └── hw/
 │       └── Cisco_Packet_Tracer.md
 ├── lesson_05/
+│   └── class/
+│       └── ipv4.md
+├── lesson_06/
 │   ├── class/
 │   │   └── class.md
 │   └── hw/
 │       └── Cisco-Network-create.md
-├── lesson_06/
-│   └── class/
-│       └── ipv4.md
 ├── .gitignore
 ├── LICENSE.md
 └── README.md

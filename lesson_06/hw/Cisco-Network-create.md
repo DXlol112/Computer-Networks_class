@@ -1,4 +1,4 @@
-# Домашние задание № 5
+# Домашние задание № 6
 
 ## Что надо было сделать
 
@@ -9,12 +9,12 @@
 ## Решение
 
 1. Скриншот схемы сети<br>
-![Схема сети](../../.github/assets/lesson_05/Cisco-Network-create.png)
+![Схема сети](../../.github/assets/lesson_06/Cisco-Network-create.png)
 
 2. Скриншот консоли с результатами ping<br>
-![Результаты ping](../../.github/assets/lesson_05/Cisco-Network-ping.png)
+![Результаты ping](../../.github/assets/lesson_06/Cisco-Network-ping.png)
 
 3. Скриншот работы симулятора по отправки пинга<br>
-![Работа симулятора](../../.github/assets/lesson_05/Cisco-Network-simulator-ping.png)
+![Работа симулятора](../../.github/assets/lesson_06/Cisco-Network-simulator-ping.png)
 
-Файл со схмеой сети [Cisco-Network-create.pkt](../../.github/pkt/lesson_05/Cisco-Network-1.pkt)
+Файл со схмеой сети [Cisco-Network-create.pkt](../../.github/pkt/lesson_06/Cisco-Network-1.pkt)
