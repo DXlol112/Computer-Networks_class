@@ -4,14 +4,15 @@
 
 ## Оглавление
 
-| Занятие | Конспект | Домашняя работа |
-| :---: | --- | --- |
-| 1 | — | [Создать сеть аудитории](lesson_01/hw/Create_network.md) |
-| 2 | [Коммутация Ethernet](lesson_02/class/Ethernet_switching.md) | [Wireshark](lesson_02/hw/Wireshark.md) |
-| 3 | — | [Схема MAC-адреса](lesson_03/hw/MAC_address_scheme.md) |
-| 4 | — | [Cisco Packet Tracer](lesson_04/hw/Cisco_Packet_Tracer.md) |
-| 5 | [IPv4: адресация и подсети](lesson_05/class/ipv4.md) | [Cisco Packet Tracer и распределение адресов по подсетям](lesson_05/hw/hw_05.md) |
-| 6 | [Расчёт IP-сетей и подсетей](lesson_06/class/class.md) | [Создание сети Cisco](lesson_06/hw/Cisco-Network-create.md) |
+| Занятие |                           Конспект                           |                                 Домашняя работа                                  |
+| :-----: | :----------------------------------------------------------: | :------------------------------------------------------------------------------: |
+|    1    |                              —                               |             [Создать сеть аудитории](lesson_01/hw/Create_network.md)             |
+|    2    | [Коммутация Ethernet](lesson_02/class/Ethernet_switching.md) |                      [Wireshark](lesson_02/hw/Wireshark.md)                      |
+|    3    |                              —                               |              [Схема MAC-адреса](lesson_03/hw/MAC_address_scheme.md)              |
+|    4    |                              —                               |            [Cisco Packet Tracer](lesson_04/hw/Cisco_Packet_Tracer.md)            |
+|    5    |     [IPv4: адресация и подсети](lesson_05/class/ipv4.md)     | [Cisco Packet Tracer и распределение адресов по подсетям](lesson_05/hw/hw_05.md) |
+|    6    |    [Расчёт IP-сетей и подсетей](lesson_06/class/class.md)    |           [Создание сети Cisco](lesson_06/hw/Cisco-Network-create.md)            |
+|    7    |                              —                               |              [Расчёт масок и диапазонов подсетей](lesson_07/hw/hw_07.md)              |
 
 ## Структура
 
@@ -78,6 +79,11 @@
 │   │   └── class.md
 │   └── hw/
 │       └── Cisco-Network-create.md
+├── lesson_07/
+│   ├── class/
+│   │   └── .gitkeep
+│   └── hw/
+│       └── hw_07.md
 ├── .gitignore
 ├── LICENSE.md
 └── README.md
