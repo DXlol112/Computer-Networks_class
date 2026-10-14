@@ -18,6 +18,7 @@
 |   10    |                 [Протокол DHCP](<lesson_10/class/Протокол DHCP.md>)                 |                                         —                                        |
 |   11    | [Транспортный уровень TCP и UDP](<lesson_11/class/Транспортный уровень TCP и UDP.md>) | [Краткая выжимка по TCP и UDP](lesson_11/hw/hw.md) |
 |   12    | [Технология NAT](<lesson_12/class/Технология NAT.md>) | [Настройка NAT в Cisco Packet Tracer](lesson_12/hw/hw.md) |
+|   13    | [Система доменных имён DNS](<lesson_13/class/Система доменных имён DNS.md>) | [Настройка DNS в Cisco Packet Tracer](lesson_13/hw/hw.md) |
 
 ### Проверочные работы
 
@@ -101,11 +102,18 @@
 │   │   │   ├── transport-port-addressing.jpg
 │   │   │   ├── transport-segmentation.jpg
 │   │   │   └── udp-header.png
-│   │   └── lesson_12/
-│   │       ├── nat-addresses.png
-│   │       ├── network.png
-│   │       ├── pat.png
-│   │       └── static-nat.png
+│   │   ├── lesson_12/
+│   │   │   ├── nat-addresses.png
+│   │   │   ├── network.png
+│   │   │   ├── pat.png
+│   │   │   └── static-nat.png
+│   │   └── lesson_13/
+│   │       ├── dns-browser-error.jpg
+│   │       ├── dns-domain-levels.png
+│   │       ├── dns-name-resolution.png
+│   │       ├── dns-network.png
+│   │       ├── dns-server-interaction.png
+│   │       └── dns-soa-example.png
 │   └── pkt/
 │       ├── .gitkeep
 │       ├── lesson_06/
@@ -113,8 +121,10 @@
 │       ├── lesson_08/
 │       │   ├── Сеть-для-настройки-RIP.pkt
 │       │   └── Статическая-маршрутизация.pkt
-│       └── lesson_12/
-│           └── nat-hw.pkt
+│       ├── lesson_12/
+│       │   └── nat-hw.pkt
+│       └── lesson_13/
+│           └── dns-hw.pkt
 ├── control-test/
 │   └── Проверочная_№1.md
 ├── lesson_01/
@@ -171,6 +181,11 @@
 ├── lesson_12/
 │   ├── class/
 │   │   └── Технология NAT.md
+│   └── hw/
+│       └── hw.md
+├── lesson_13/
+│   ├── class/
+│   │   └── Система доменных имён DNS.md
 │   └── hw/
 │       └── hw.md
 ├── .gitignore
