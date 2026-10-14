@@ -16,6 +16,7 @@
 |    8    |        [Маршрутизация в сети Интернет](<lesson_08/class/Маршрутизация в сети Интернет.md>)        |               [Схемы в Cisco Packet Tracer](lesson_08/hw/hw_08.md)               |
 |    9    | [Маршрутизация в информационных сетях](<lesson_09/class/Маршрутизация в информационных сетях.md>) |                                         —                                        |
 |   10    |                 [Протокол DHCP](<lesson_10/class/Протокол DHCP.md>)                 |                                         —                                        |
+|   11    | [Транспортный уровень TCP и UDP](<lesson_11/class/Транспортный уровень TCP и UDP.md>) |                                         —                                        |
 
 ### Проверочные работы
 
@@ -86,9 +87,19 @@
 │   │   │   ├── static-route-router0-config.png
 │   │   │   ├── static-route-router1-config.png
 │   │   │   └── static-routing-topology.png
-│   │   └── lesson_10/
-│   │       ├── dhcp-server-relay-topology.png
-│   │       └── rarp-request-response.png
+│   │   ├── lesson_10/
+│   │   │   ├── dhcp-server-relay-topology.png
+│   │   │   └── rarp-request-response.png
+│   │   └── lesson_11/
+│   │       ├── tcp-congestion-control.png
+│   │       ├── tcp-connection-close.jpg
+│   │       ├── tcp-header.png
+│   │       ├── tcp-receiver-and-congestion-windows.png
+│   │       ├── tcp-sliding-window.png
+│   │       ├── tcp-three-way-handshake.jpg
+│   │       ├── transport-port-addressing.jpg
+│   │       ├── transport-segmentation.jpg
+│   │       └── udp-header.png
 │   └── pkt/
 │       ├── .gitkeep
 │       ├── lesson_06/
@@ -144,6 +155,9 @@
 ├── lesson_10/
 │   └── class/
 │       └── Протокол DHCP.md
+├── lesson_11/
+│   └── class/
+│       └── Транспортный уровень TCP и UDP.md
 ├── .gitignore
 ├── LICENSE.md
 └── README.md
