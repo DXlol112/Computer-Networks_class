@@ -17,6 +17,7 @@
 |    9    | [Маршрутизация в информационных сетях](<lesson_09/class/Маршрутизация в информационных сетях.md>) |                                         —                                        |
 |   10    |                 [Протокол DHCP](<lesson_10/class/Протокол DHCP.md>)                 |                                         —                                        |
 |   11    | [Транспортный уровень TCP и UDP](<lesson_11/class/Транспортный уровень TCP и UDP.md>) | [Краткая выжимка по TCP и UDP](lesson_11/hw/hw.md) |
+|   12    | [Технология NAT](<lesson_12/class/Технология NAT.md>) | [Настройка NAT в Cisco Packet Tracer](lesson_12/hw/hw.md) |
 
 ### Проверочные работы
 
@@ -90,23 +91,30 @@
 │   │   ├── lesson_10/
 │   │   │   ├── dhcp-server-relay-topology.png
 │   │   │   └── rarp-request-response.png
-│   │   └── lesson_11/
-│   │       ├── tcp-congestion-control.png
-│   │       ├── tcp-connection-close.jpg
-│   │       ├── tcp-header.png
-│   │       ├── tcp-receiver-and-congestion-windows.png
-│   │       ├── tcp-sliding-window.png
-│   │       ├── tcp-three-way-handshake.jpg
-│   │       ├── transport-port-addressing.jpg
-│   │       ├── transport-segmentation.jpg
-│   │       └── udp-header.png
+│   │   ├── lesson_11/
+│   │   │   ├── tcp-congestion-control.png
+│   │   │   ├── tcp-connection-close.jpg
+│   │   │   ├── tcp-header.png
+│   │   │   ├── tcp-receiver-and-congestion-windows.png
+│   │   │   ├── tcp-sliding-window.png
+│   │   │   ├── tcp-three-way-handshake.jpg
+│   │   │   ├── transport-port-addressing.jpg
+│   │   │   ├── transport-segmentation.jpg
+│   │   │   └── udp-header.png
+│   │   └── lesson_12/
+│   │       ├── nat-addresses.png
+│   │       ├── network.png
+│   │       ├── pat.png
+│   │       └── static-nat.png
 │   └── pkt/
 │       ├── .gitkeep
 │       ├── lesson_06/
 │       │   └── Cisco-Network-1.pkt
-│       └── lesson_08/
-│           ├── Сеть-для-настройки-RIP.pkt
-│           └── Статическая-маршрутизация.pkt
+│       ├── lesson_08/
+│       │   ├── Сеть-для-настройки-RIP.pkt
+│       │   └── Статическая-маршрутизация.pkt
+│       └── lesson_12/
+│           └── nat-hw.pkt
 ├── control-test/
 │   └── Проверочная_№1.md
 ├── lesson_01/
@@ -158,6 +166,11 @@
 ├── lesson_11/
 │   ├── class/
 │   │   └── Транспортный уровень TCP и UDP.md
+│   └── hw/
+│       └── hw.md
+├── lesson_12/
+│   ├── class/
+│   │   └── Технология NAT.md
 │   └── hw/
 │       └── hw.md
 ├── .gitignore
