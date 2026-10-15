@@ -10,11 +10,11 @@
 
 ## Рещение
 
-1) TCP по фильтру `tcp.flags.syn == 1 && tcp.flags.ack == 0`
+1) TCP по фильтру `tcp.flags.syn == 1 && tcp.flags.ack == 0`<br>
 ![tcp-flags.syn](../../.github/assets/lesson_14/tcp-flags.syn.png)
 
-2) TCP по фильтру `tcp.flags.ack == 1 && tcp.flags.syn == 0`
+2) TCP по фильтру `tcp.flags.ack == 1 && tcp.flags.syn == 0`<br>
 ![tcp-flags.ack](../../.github/assets/lesson_14/tcp-flags.ack.png)
 
-3) UDP
+3) UDP<br>
 ![udp](../../.github/assets/lesson_14/udp.png)
