@@ -20,6 +20,7 @@
 |   12    | [Технология NAT](<lesson_12/class/Технология NAT.md>) | [Настройка NAT в Cisco Packet Tracer](lesson_12/hw/hw.md) |
 |   13    | [Система доменных имён DNS](<lesson_13/class/Система доменных имён DNS.md>) | [Настройка DNS в Cisco Packet Tracer](lesson_13/hw/hw.md) |
 |   14    | — | [TCP и UDP в Wireshark](lesson_14/hw/hw.md) |
+|   15    | — | [HTTP и HTTPS: разбор и составление запросов](lesson_15/hw/hw.md) |
 
 ### Проверочные работы
 
@@ -129,7 +130,7 @@
 │       ├── lesson_12/
 │       │   └── nat-hw.pkt
 │       └── lesson_13/
-│           └── dns-hw.pkt
+│           └── dns-hw1.pkt
 ├── control-test/
 │   └── Проверочная_№1.md
 ├── lesson_01/
@@ -194,6 +195,11 @@
 │   └── hw/
 │       └── hw.md
 ├── lesson_14/
+│   ├── class/
+│   │   └── .gitkeep
+│   └── hw/
+│       └── hw.md
+├── lesson_15/
 │   ├── class/
 │   │   └── .gitkeep
 │   └── hw/
