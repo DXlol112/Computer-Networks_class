@@ -8,4 +8,4 @@
 
 ![CестьDNS+пинг](../../.github/assets/lesson_13/dns-network.png)
 
-<a href="../../.github/pkt/lesson_13/dns-hw.pkt" download>Скачать сеть c настроеным DNS</a>
+<a href="../../.github/pkt/lesson_13/dns-hw1.pkt" download>Скачать сеть c настроеным DNS</a>
