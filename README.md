@@ -29,8 +29,6 @@
 
 ## Структура
 
-Конспекты и домашние работы находятся в `lesson_XX/class/class.md` и `lesson_XX/hw/hw.md`. Изображения хранятся в `assets/lesson_XX/images/`, файлы Cisco Packet Tracer — в `assets/lesson_XX/pkt/`. В пустых папках оставлен `.gitkeep`.
-
 ```text
 .
 ├── assets/
