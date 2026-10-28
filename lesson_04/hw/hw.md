@@ -11,6 +11,6 @@
 
 <p align="center">
 
-  <img src="../../.github/assets/lesson_04/Cisco_Packet_Tracer_bloc.png">
+  <img src="../../assets/lesson_04/images/Cisco_Packet_Tracer_bloc.png">
   
 </p>

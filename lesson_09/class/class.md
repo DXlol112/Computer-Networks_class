@@ -8,7 +8,7 @@
 
 При пересылке маршрутизатор проверяет IP-адрес назначения и формирует кадр для следующего участка пути. Если подходящего маршрута нет, пакет не удаётся доставить.
 
-![Пересылка пакета по таблице маршрутизации](../../.github/assets/lesson_09/packet-forwarding-principle.png)
+![Пересылка пакета по таблице маршрутизации](../../assets/lesson_09/images/packet-forwarding-principle.png)
 
 От алгоритмов маршрутизации требуют оптимального выбора пути, простоты, устойчивости, быстрой сходимости и гибкости. **Сходимость** — согласование сведений о маршрутах после изменения сети.
 
@@ -28,7 +28,7 @@
 
 Проверяют наиболее точный маршрут к узлу или сети, затем маршрут по умолчанию. Если подходящей записи нет, возникает ошибка доставки.
 
-![Алгоритм выбора маршрута](../../.github/assets/lesson_09/route-selection-algorithm.png)
+![Алгоритм выбора маршрута](../../assets/lesson_09/images/route-selection-algorithm.png)
 
 ## Команды Windows и записи Unix
 
@@ -63,7 +63,7 @@ show ip route
 
 На схеме со слайда 23 пять маршрутизаторов Cisco 1841, коммутатор 2950-24 и четыре компьютера. Router0 связан с Router1 сетью `10.0.0.0/24`. Router1, Router2, Router3 и Router4 соединены через Switch0 сетью `10.0.1.0/24`.
 
-![Топология для настройки статических маршрутов](../../.github/assets/lesson_09/static-routing-topology.png)
+![Топология для настройки статических маршрутов](../../assets/lesson_09/images/static-routing-topology.png)
 
 Адреса локальных сетей по схеме:
 
@@ -78,11 +78,11 @@ show ip route
 
 На слайде 24 в Router0 добавлен маршрут по умолчанию через `10.0.0.2`.
 
-![Исходный снимок настройки маршрута по умолчанию Router0](../../.github/assets/lesson_09/static-route-router0-config.png)
+![Исходный снимок настройки маршрута по умолчанию Router0](../../assets/lesson_09/images/static-route-router0-config.png)
 
 На слайде 26 у Router1 заданы маршруты к сетям `192.168.0.0/24`, `192.168.1.0/24`, `192.168.2.0/24`, `192.168.3.0/24` и маршрут по умолчанию.
 
-![Исходный снимок статических маршрутов Router1](../../.github/assets/lesson_09/static-route-router1-config.png)
+![Исходный снимок статических маршрутов Router1](../../assets/lesson_09/images/static-route-router1-config.png)
 
 > В исходных слайдах есть расхождение: на топологии адрес `10.0.0.2` подписан у Router0, а `10.0.0.1` — у Router1. В примерах настроек и таблиц эти адреса используются наоборот. При повторении примера нужно согласовать адреса интерфейсов и следующий узел.
 
@@ -96,7 +96,7 @@ show ip route
 
 На схеме со слайда 35 пять маршрутизаторов Cisco 1841, три концентратора Hub-PT и четыре компьютера. Router1 и Router2 соединяют левые сети с общим сегментом. Router3 и Router4 ведут к PC4 через Hub2. Router5 подключает PC3.
 
-![Сеть с маршрутизаторами и концентраторами для примера RIP](../../.github/assets/lesson_09/rip-hub-topology.png)
+![Сеть с маршрутизаторами и концентраторами для примера RIP](../../assets/lesson_09/images/rip-hub-topology.png)
 
 Пример настройки Router1 с сетями из его таблицы:
 
@@ -114,21 +114,21 @@ show ip route
 
 На каждом маршрутизаторе указывают его непосредственно подключённые сети. В таблице Router1 подключены сети `10.0.0.0/24` и `192.168.1.0/24`, а удалённые маршруты помечены буквой **R**.
 
-![Окно настройки RIP Router1 со слайда 36](../../.github/assets/lesson_09/rip-router1-config.png)
+![Окно настройки RIP Router1 со слайда 36](../../assets/lesson_09/images/rip-router1-config.png)
 
 В режиме Simulation на слайде 37 показаны IP- и UDP-заголовки пакета RIP, маршрутная информация и метрика.
 
-![Поля пакета RIP и метрика маршрута](../../.github/assets/lesson_09/rip-packet-format.png)
+![Поля пакета RIP и метрика маршрута](../../assets/lesson_09/images/rip-packet-format.png)
 
 ### Пример RIP на общей топологии
 
 На слайдах 40, 44 и 51 примеры RIP, OSPF и BGP используют одну топологию с несколькими маршрутизаторами, коммутаторами и компьютерами. Для каждого протокола показана своя таблица маршрутизации R3.
 
-![Общая топология примеров RIP, OSPF и BGP](../../.github/assets/lesson_09/protocol-comparison-topology.png)
+![Общая топология примеров RIP, OSPF и BGP](../../assets/lesson_09/images/protocol-comparison-topology.png)
 
 В примере RIP со слайда 40 удалённые маршруты обозначены **R**.
 
-![Таблица маршрутизации R3 в примере RIP](../../.github/assets/lesson_09/rip-router3-routing-table.png)
+![Таблица маршрутизации R3 в примере RIP](../../assets/lesson_09/images/rip-router3-routing-table.png)
 
 ## Выбор маршрута Cisco
 
@@ -152,7 +152,7 @@ show ip route
 
 Алгоритм начинает с расстояния 0 до исходной вершины. Затем выбирает непосещённую вершину с минимальной меткой и уточняет расстояния до её соседей.
 
-![Поиск кратчайших путей алгоритмом Дейкстры](../../.github/assets/lesson_09/dijkstra-shortest-paths.gif)
+![Поиск кратчайших путей алгоритмом Дейкстры](../../assets/lesson_09/images/dijkstra-shortest-paths.gif)
 
 Пример настройки для сети `10.0.0.0/24`:
 
@@ -174,33 +174,33 @@ OSPF поддерживает разные маски подсетей, равн
 
 На слайде 48 показаны две части пакета Link State Update: заголовки Ethernet/IP и объявления состояния связей.
 
-![Заголовки Ethernet, IP и OSPF Link State Update](../../.github/assets/lesson_09/ospf-ip-and-update-headers.png)
+![Заголовки Ethernet, IP и OSPF Link State Update](../../assets/lesson_09/images/ospf-ip-and-update-headers.png)
 
-![Пример объявления состояния связей OSPF в Packet Tracer](../../.github/assets/lesson_09/ospf-lsa-packet.png)
+![Пример объявления состояния связей OSPF в Packet Tracer](../../assets/lesson_09/images/ospf-lsa-packet.png)
 
 ### Пример OSPF на общей топологии
 
 На той же топологии в примере со слайда 44 удалённые маршруты R3 обозначены **O**.
 
-![Таблица маршрутизации R3 в примере OSPF](../../.github/assets/lesson_09/ospf-router3-routing-table.png)
+![Таблица маршрутизации R3 в примере OSPF](../../assets/lesson_09/images/ospf-router3-routing-table.png)
 
 ## BGP
 
 **BGP** обменивается сведениями о достижимости сетей между автономными системами через TCP, порт 179.
 
-![Обмен маршрутами BGP между автономными системами](../../.github/assets/lesson_09/bgp-autonomous-systems.png)
+![Обмен маршрутами BGP между автономными системами](../../assets/lesson_09/images/bgp-autonomous-systems.png)
 
 BGP использует путь через AS и атрибуты маршрута. На выбор влияют политика и `local preference`, затем другие условия, включая длину AS_PATH. Описание SPF на слайде 50 относится к OSPF. [Уточнение работы BGP: Cisco](https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/13753-25.html).
 
 В режиме Simulation на слайде 52 показаны сообщения OPEN и UPDATE.
 
-![Сообщение BGP OPEN в Packet Tracer](../../.github/assets/lesson_09/bgp-open-packet.png)
+![Сообщение BGP OPEN в Packet Tracer](../../assets/lesson_09/images/bgp-open-packet.png)
 
-![Пример пакета BGP UPDATE в Packet Tracer](../../.github/assets/lesson_09/bgp-update-packet.png)
+![Пример пакета BGP UPDATE в Packet Tracer](../../assets/lesson_09/images/bgp-update-packet.png)
 
 ### Пример BGP на общей топологии
 
 На той же топологии в примере со слайда 51 удалённые маршруты R3 обозначены **B**.
 
-![Таблица маршрутизации R3 в примере BGP](../../.github/assets/lesson_09/bgp-router3-routing-table.png)
+![Таблица маршрутизации R3 в примере BGP](../../assets/lesson_09/images/bgp-router3-routing-table.png)
 

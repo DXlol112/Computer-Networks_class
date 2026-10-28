@@ -6,8 +6,8 @@
 
 ## Решение
 
-![Сеть](../../.github/assets/lesson_12/network.png)
+![Сеть](../../assets/lesson_12/images/network.png)
 
 Сам файл Cisco Packet Tracer<br>
 
-<a href="../../.github/pkt/lesson_12/nat-hw.pkt" download>Скачать файл</a>
+<a href="../../assets/lesson_12/pkt/nat-hw.pkt" download>Скачать файл</a>

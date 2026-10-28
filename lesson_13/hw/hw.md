@@ -6,6 +6,6 @@
 
 ## Решение
 
-![CестьDNS+пинг](../../.github/assets/lesson_13/dns-network.png)
+![CестьDNS+пинг](../../assets/lesson_13/images/dns-network.png)
 
-<a href="../../.github/pkt/lesson_13/dns-hw1.pkt" download>Скачать сеть c настроеным DNS</a>
+<a href="../../assets/lesson_13/pkt/dns-hw1.pkt" download>Скачать сеть c настроеным DNS</a>

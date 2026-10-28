@@ -15,11 +15,11 @@
 
 - Схема HTTP и HTTPS в Cisco Packet Tracer
 
-![Схема](../../.github/assets/final-test/cheme-http-https.png)
+![Схема](../assets/final-test/images/cheme-http-https.png)
 
 Сеть: ПК → роутер Cisco 1841 → коммутатор 2950-24 → два сервера. ПК подключён кабелем `Copper Cross-Over`, остальные устройства — `Copper Straight-Through`.
 
-[Схема в формате pkt](../../.github/pkt/finel-test/10_HTTP_HTTPS.pkt)
+[Схема в формате pkt](../assets/final-test/pkt/10_HTTP_HTTPS.pkt)
 
 - Расчёт, как проводился
 
@@ -36,7 +36,7 @@
 
 - ARP и MAC-таблица
 
-![ARP](../../.github/assets/final-test/mac-address-table.png)
+![ARP](../assets/final-test/images/mac-address-table.png)
 
 MAC-таблица
 

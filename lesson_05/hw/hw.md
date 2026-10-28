@@ -9,7 +9,7 @@
 ## Решение
 
 Скриншот програмы:<br>
-![Програма](../../.github/assets/lesson_05/Cisco-Packet-Tracer.png)
+![Програма](../../assets/lesson_05/images/Cisco-Packet-Tracer.png)
 
 Распределение:<br>
 <br>

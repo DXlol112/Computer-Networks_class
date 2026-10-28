@@ -9,11 +9,11 @@
 
 Схема mac-адреса
 
-![Схема mac-адреса](../../.github/assets/lesson_03/scheme_mac.png)
+![Схема mac-адреса](../../assets/lesson_03/images/scheme_mac.png)
 
 Схема соединения компьютеров с коммутаторов
 
-![Схема соединения компьютеров с коммутаторов](../../.github/assets/lesson_03/scheme_switch.png)
+![Схема соединения компьютеров с коммутаторов](../../assets/lesson_03/images/scheme_switch.png)
 
 
 

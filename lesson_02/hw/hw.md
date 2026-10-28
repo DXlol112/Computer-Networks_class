@@ -6,4 +6,4 @@
 
 ## Решение
 
-![Скриншот Wireshark](../../.github/assets/lesson_02/Wireshark.png)
+![Скриншот Wireshark](../../assets/lesson_02/images/Wireshark.png)
